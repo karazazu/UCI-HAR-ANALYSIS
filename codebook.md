@@ -5,9 +5,10 @@ output: html_document
 
 This codebook describes the output and transformations performed by the analysis cript, "run_analysis.R".
 
-The output of the script can be accessed by reading the CSV file:
+The output of the script can be accessed by reading the text or CSV files:
 
 ```{r}
+data <- read.table("tidy_df.txt")
 data <- read.csv("tidy_df.csv")
 ```
 

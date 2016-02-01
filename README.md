@@ -5,7 +5,7 @@ output: html_document
 
 
 
-This repository coontains the assignment for 'Getting and Cleaning Data'.
+This repository contains the assignment for 'Getting and Cleaning Data'.
 
 It consists of an R script for performing work on the UCI HAR Dataset (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
@@ -23,9 +23,10 @@ To run the code, use 'source' as follows:
 source("run_analysis.R")
 ```
 
-The tidied data set, in CSV format, is written to a file called 
+The tidied data set, in text and CSV formats, is written to a files called 
 
 ```{r}
+tidy_df.txt
 tidy_df.csv
 ```
 

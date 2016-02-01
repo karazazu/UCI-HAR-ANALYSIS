@@ -97,4 +97,5 @@ if (!file.exists("data"))
  
  # Save the data into the file
  write.csv(tidy_df, file="tidy_df.csv", row.names=F)
+ write.table(tidy_df, file="tidy_df.txt", row.names = F)
  
